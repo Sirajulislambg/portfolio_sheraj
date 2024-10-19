@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+.common_color {
+  color: #fd6e0a;
+}
+
+.mary {
+  font-family: sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.mark1 {
+  color: #474747;
+}
+
+.btn_primary {
+  background-color: #fd6e0a;
+  color: #ffffff;
+  padding: 12px 25px 13px 26px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.banner_conten {
+  max-width: 585px;
+}
+
+.hi_am {
+  font-size: 45px;
+  font-weight: 400;
+}
+.mary_hardy {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.mary_text {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 35px 0px 200px;
+}
+.header_part {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  margin: 35px 0px 25px 20px;
+  background-position: top left, bottom right;
+  padding: 40px 10px;
+}
+
+.secondary_color {
+  background-color: #fff8f3;
+}
+
+.about {
+  max-width: 1100px;
+  max-height: 500px;
+}
+.about_me {
+  width: 646px;
+  height: 270px;
+  margin: 0 auto;
+  padding: 130px 150px;
+  text-align: center;
+  border-radius: 10px;
+}
+.about_header {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.common_description_color {
+  color: #757575;
+}
+.about_description {
+  line-height: 25px;
+}
+main {
+  margin: 120px 210px;
+}
+
+/* -------------------------info */
+
+.personal_info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+.personal_info_common {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.given_info {
+  font-size: 15px;
+  font-weight: 600;
+}
+main section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.what_do {
+  text-align: center;
+}
+.what_do .title {
+  margin-bottom: 10px;
+}
+
+.what_do .skills_description {
+  padding: 10px 114px;
+  margin-bottom: 25px;
+}
+.skill_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill_container .single_skill_js {
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.single_skill_js .image {
+  padding: 15px;
+}
+
+.single_skill_js .text {
+  padding: 10px;
+}
+.single_skill_js .text_description {
+  padding: 15px;
+}
+
+.single_skill_js {
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.resume_container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary_resume {
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 70px;
+}
+
+.resume_header {
+  margin-bottom: 20px;
+}
+.resume_container_first_column {
+  padding: 20px;
+}
+.resume_container_second_column {
+  padding: 20px;
+}
+.resume_title {
+  margin-bottom: 12px;
+}
+.resume_top_space {
+  margin-top: 15px;
+}
+
+.resume_lineHeight {
+  line-height: 25px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.subtitle {
+  font-weight: 20px;
+  font-weight: 600;
+}
+
+.btn_download_CV {
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 130px 230px;
+}
+
+.footer_part {
+  width: 1345px;
+  height: 700px;
+  padding: 50px;
+}
+
+.title1 {
+  margin-bottom: 20px;
+}
+.title_description {
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.let_message {
+  margin-bottom: 20px;
+}
+
+.inblock {
+  display: inline-block;
+}
+
+.inputName {
+  width: 400px;
+  height: 60px;
+}
+
+.name {
+  margin-bottom: 24px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  padding: 5px;
+  border-radius: 7px;
+  font-size: 20px;
+}
+.let_message {
+  margin-left: 10px;
+}
+
+textarea {
+  width: 400px;
+  height: 150px;
+  padding-right: 31px;
+  margin-right: 19px;
+}
+
+.let_connect {
+  margin-right: 70px;
+}
